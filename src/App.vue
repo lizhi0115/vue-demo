@@ -1,9 +1,12 @@
+<!-- 结构 -->
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
 
+<!-- 交互 -->
 <script>
+// 引入组件
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
@@ -14,6 +17,7 @@ export default {
 }
 </script>
 
+<!-- 样式 -->
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
